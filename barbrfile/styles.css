@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.body {
+    background-color: black;
+}
+
+@media screen and (max-width:992px) {
+    .ad {
+        display: none;
+    }
+}
+
+.menu-bar {
+    height: 85px;
+    padding-top: 2rem;
+}
+
+.nav-li {
+
+    color: #6c757d;
+    margin-top: 16px;
+    margin-right: 56px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media screen and (max-width:992px) {
+    .nav-li {
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .nav-li {
+        display: none;
+    }
+}
+
+.green-text {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+@media screen and (max-width:480px) {
+    .green-text {
+        text-align: center;
+    }
+}
+
+.green-para {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.green {
+    background-image: linear-gradient(#00ff87, #60efff);
+}
+
+.heading {
+    font-size: 4.2rem;
+
+
+}
+
+.fw {
+    font-weight: 700;
+}
+
+
+.text {
+    color: #fff;
+}
+
+.button-style {
+    border-radius: 0.75rem;
+    padding: 16px 37px;
+    font-weight: 700;
+}
+
+.round-div {
+    width: 430px;
+    height: 430px;
+    background-image: url();
+    /* background-position: 0 0; */
+    background-size: cover;
+    /* margin-left: auto; */
+    position: relative;
+}
+
+.phone-div {
+    display: inline-block;
+    position: absolute;
+    top: -15.5%;
+    /* bottom: auto; */
+    left: 18%;
+    right: auto;
+}
+
+.border-green {
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.black {
+    background-color: #0f0f0f;
+}
+
+.gap-black {
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    padding: 50px 36px;
+    display: flex;
+
+}
+
+@media screen and (max-width:992px) {
+    .gap-black {
+        background-color: #0f0f0f;
+        border-radius: 10px;
+        padding: 25px 15px;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .gap-black {
+        display: block;
+
+    }
+}
+.text-block {
+    text-align: center;
+    background-color: #313131;
+    border-radius: 18px;    
+    padding: 5px 10px;    
+    display: inline-block;
+}
+.text-block2 {
+    text-align: center;
+    background-color: #313131;
+    border-radius: 18px;
+    color: #000000;
+    padding: 5px 10px;    
+    display: inline-block;
+}
+
+.middle-img {
+    height: 100%;
+    width: 150px;
+}
+
+.div-block {
+    justify-content: space-between;
+    display: flex;
+}
+
+.div-250 {
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.div-250.green {
+    opacity: .10;
+
+}
+
+.underline {
+    width: 2rem;
+    height: 1px;
+    border-radius: 19px;
+}
+.background{
+    background-color: rgba(96, 239, 255, .03);
+}
+
+.text-250 {
+    color: #c2c2c2;
+    font-weight: 500;
+}
+
+.row-4 {
+    position: relative;
+    /* height: auto; */
+    background-color: #1c1c1c;
+    border-radius: 21.28px;
+    margin-right: 36.9px;
+    padding: 18.09px 43.62px 32.41px;
+}
+
+.div-block-4 {
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+.green-h2 {
+    background-image: linear-gradient(#00ff87, rgba(96, 239, 255, .3));
+}
+
+.five-row-6 {   
+    background-color: #0f0f0f;
+    border: 1px solid rgba(255, 255, 255, .44);
+    border-radius: 19.12px;   
+    padding: 23px;
+    
+}
+
+.five-text-6 {
+    text-align: center;
+    background-color: #313131;
+    border-radius: 18px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+.five-row-62{
+    background-color: #0f0f0f;
+    padding: 23px;
+    border-radius: 18px;
+    display: inline-block;
+}
+
+.five-image {    
+    border-radius: 1rem;
+}
+.text-div{
+    display: flex;
+}
+.text-div h4{
+    display:inline ;   
+    
+} 
+.text-div p{
+    display:inline ;
+    color: #d8d8d8;
+    margin-top:0;
+} 
+.image-into {
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+.phone-tab{
+    border-radius: 1rem;
+}
+
+.border-div{
+    border-left: 2px solid rgba(151, 151, 151, .5);
+    padding-left: 1rem;
+    /* background-image: linear-gradient(#00ff87, #60efff); */
+
+}
+.mt-24{
+    margin-top: 24rem;
+}
+.barbr-img {
+    height: 70px;
+    
+}
+.inline-w{
+    max-width: 100%;
+    display: inline-block;
+    padding-right: 1rem;
+}
+.img-position{
+    position: relative;
+}
+.img-absolute {
+    position: absolute;
+    top: auto;
+    bottom: 0%;
+    left: auto;
+    right: 0%;
+}
